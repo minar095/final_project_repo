@@ -1,7 +1,14 @@
 plugins {
-    id 'com.android.application'
+task()    id 'com.android.application'
     id 'kotlin-android' // If using Kotlin
 }
+
+dependencies {
+    implementation 'com.example:hedgehog:1.0.0' // Replace with the actual artifact
+}
+
+
+
 
 android {
     compileSdk 33
